@@ -62,4 +62,7 @@ h3 {
   h1 {
     font-size: 64px;
   }
+  .homepage-skills {
+    padding-top: 20px;
+  }
 }
