@@ -8,12 +8,12 @@
 
 body {
   background-color: var(--tertiary-colour);
+  font-family: var(--heading-family-font);
 }
 
 h1,
 h2,
 h3 {
-  font-family: var(--heading-family-font);
   color: var(--tertiary-colour);
 }
 
@@ -45,11 +45,16 @@ h3 {
   border-radius: 15px;
   box-shadow: 5px 5px var(--secondary-colour);
   text-align: center;
-  padding: 10px;
+  padding: 20px 10px;
   color: var(--secondary-colour);
   margin: 20px;
 }
 
+.btn-branding {
+  background-color: var(--secondary-colour);
+  color: var(--background-colour);
+  padding: 10px 20px;
+}
 @media (max-width: 960px) {
   .hero {
     padding: 60px 20px;
