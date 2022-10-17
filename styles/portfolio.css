@@ -6,6 +6,10 @@
   --background-colour: #f1f6f8;
 }
 
+body {
+  background-color: var(--tertiary-colour);
+}
+
 h1,
 h2,
 h3 {
@@ -14,7 +18,7 @@ h3 {
 }
 
 .hero {
-  padding: 160px 60px;
+  padding: 160px 60px 60px;
   background-color: var(--primary-colour);
 }
 
@@ -29,4 +33,28 @@ h1 {
 
 h3 {
   font-style: italic;
+}
+
+.homepage-skills {
+  padding-top: 100px;
+}
+
+.skills-box {
+  background-color: var(--background-colour);
+  border: 2px solid var(--secondary-colour);
+  border-radius: 15px;
+  box-shadow: 5px 5px var(--secondary-colour);
+  text-align: center;
+  padding: 10px;
+  color: var(--secondary-colour);
+  margin: 20px;
+}
+
+@media (max-width: 960px) {
+  .hero {
+    padding: 60px 20px;
+  }
+  h1 {
+    font-size: 64px;
+  }
 }
