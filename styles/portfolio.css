@@ -1,3 +1,32 @@
+:root {
+  --heading-family-font: "Montserrat", sans-serif;
+  --primary-colour: #21273d;
+  --secondary-colour: #6a759b;
+  --tertiary-colour: #b9d4f1;
+  --background-colour: #f1f6f8;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading-family-font);
+  color: var(--tertiary-colour);
+}
+
+.hero {
+  padding: 160px 60px;
+  background-color: var(--primary-colour);
+}
+
 h1 {
-  color: blue;
+  font-size: 96px;
+}
+
+.col-4 {
+  text-align: right;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
 }
