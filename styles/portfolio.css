@@ -55,6 +55,12 @@ h3 {
   color: var(--background-colour);
   padding: 10px 20px;
 }
+
+img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
 @media (max-width: 960px) {
   .hero {
     padding: 60px 20px;
