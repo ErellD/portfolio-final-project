@@ -88,6 +88,14 @@ p {
   line-height: 30px;
 }
 
+.content-contact {
+  font-size: 60px;
+}
+
+.links {
+  padding: 20px;
+}
+
 @media (max-width: 960px) {
   .hero {
     padding: 60px 20px;
