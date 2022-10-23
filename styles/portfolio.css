@@ -82,6 +82,12 @@ p {
   line-height: 30px;
 }
 
+.picture-caption {
+  color: var(--primary-colour);
+  font-size: 20px;
+  line-height: 30px;
+}
+
 @media (max-width: 960px) {
   .hero {
     padding: 60px 20px;
