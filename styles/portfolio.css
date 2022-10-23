@@ -120,6 +120,48 @@ p {
   font-size: 60px;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer h5 {
+  font-size: 30px;
+}
+
+footer .contact-box {
+  background: var(--background-colour);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--primary-colour);
+}
+
+footer .email-link:hover {
+  color: var(--secondary-colour);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-colour);
+  background: var(--background-colour);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: var(--background-colour);
+  background: var(--secondary-colour);
+}
+
 @media (max-width: 960px) {
   .hero {
     padding: 40px 20px;
