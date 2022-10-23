@@ -18,8 +18,36 @@ h3 {
 }
 
 .hero {
-  padding: 160px 60px 60px;
+  padding: 40px 60px 60px;
   background-color: var(--primary-colour);
+}
+
+nav {
+  padding: 0px 0px 60px 0px;
+}
+
+nav h2 {
+  font-size: 25px;
+}
+nav ul {
+  color: var(--tertiary-colour);
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--tertiary-colour);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-colour);
 }
 
 h1 {
@@ -92,14 +120,19 @@ p {
   font-size: 60px;
 }
 
-.links {
-  padding: 20px;
-}
-
 @media (max-width: 960px) {
   .hero {
-    padding: 60px 20px;
+    padding: 40px 20px;
   }
+
+  ul {
+    padding: 10px;
+  }
+
+  nav li {
+    font-size: 15px;
+  }
+
   h1 {
     font-size: 64px;
   }
